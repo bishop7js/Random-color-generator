@@ -9,6 +9,7 @@ const HomeScreen = (props) => {
         <Button title="Home Screen" onPress={() => props.navigation.push('Home')} />
         <Button title="Menu Screen" onPress={() => props.navigation.push('Menu')} />
         <Button title="List Screen" onPress={() => props.navigation.push('List')} />
+        <Button title="Colors Screen" onPress={() => props.navigation.push('Colors')} />
       </View>
     );
   }
